@@ -23,7 +23,7 @@ void setup() {
   clock_prescale_set(clock_div_1);
 #endif
 
-  strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
+  strip.begin();           
   strip.show();            
   strip.setBrightness(maxBrightness); // Set BRIGHTNESS to about 1/5 (max = 255)
   currentBrightness = maxBrightness;
